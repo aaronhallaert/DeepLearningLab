@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="font-family: verdana, sans-serif;font-size: 12px;">
+<header>
+<h1>How to use Colab</h1>
+</header>
+<div>
+<h2 id="what-is-colab">What is Colab?</h2>
+<ul>
+<li>
+<p>Colaboratory is a Google research project created to help disseminate machine learning education and research. It&rsquo;s a Jupyter notebook environment that requires no setup to use and runs entirely in the cloud. It is generally referred to by its short name Colab and you go to it by following this link: <a href="https://colab.research.google.com">colab.research.google.com </a></p>
+</li>
+<li>
+<p>It allows you to use GPUs designed with deep learning in mind, like Nvidia K80s,&nbsp;T4s, P4s and P100s. It also gives you a total of up to 12GB of RAM, and you can use it up to 12 hours in row. The downside is that, if the load is heavy, you can get disconnected, as described <a href="https://research.google.com/colaboratory/faq.html"> here</a>.&nbsp;</p>
+</li>
+<li>
+<p>The good news is that it is free, the bad news is that you need to restart the session after 12 hours and often reconnect in between. When your session times out, everything is erased. This takes a bit of discipline, since you always need to make sure you download your work to your local computer or store it (Google Drive or Github) before stopping your work.&nbsp;</p>
+</li>
+</ul>
+<h2 id="steps-to-use-colab">Steps to use Colab</h2>
+<ol>
+<li id="1-go-to-colab-webpage">Go to Colab webpage &nbsp; <a href="https://colab.research.google.com/">https://colab.research.google.com</a></li>
+<li id="2-upload-your-ipynb-file">Upload your .ipynb file:&nbsp;go to File -&gt; Upload notebook &nbsp;(see screenshot below)</li>
+<li>Ideally: save a copy to Drive (also on screenshot below) and work on that - this way, your notebook is synchronised automatically with Google drive which is handy if you get disconnected (most of the time, you can simply reconnect)<br />Note that files you store locally in your Google Runtime session are not automatically stored!!<br />We will alter see how you can "mount" your google drive such that you can store files there</li>
+<li>Note that you can also link directly to Github: please check the documentation to see how that works!</li>
+<li>Go to Edit -&gt; notebook settings: <br />there you can decide whether or not to synchonise your notebook outputs on drive (these are the plots and text that appear after running a code field)<br />there you can also indicate whether or not you need a GPU. This is not necessary for the tutorial notebook or for small networks/small datasets!</li>
+<li>Connect to "runtime" (this is the term used for a session on the Google servers) by clicking the &lsquo;Connect&rsquo; button.&nbsp;</li>
+<li>When you are done, you can also download the notebook to your local computer (File-&gt;download .ipynb)</li>
+</ol>
+<p>To distribute computational resources fairly, Colab will give priority to users that don't use the platform often. When you are done with your work (and have made backups), it is therefore a good idea to close Colab's tabs in your browser. Otherwise your Colab sessions may be disconnected more frequently in the future.</p>
+<h2>Alternatives to Colab</h2>
+<p>Although Colab is often the easiest and cheapest way to get started, using your own computer is more stable. Unfortunately, we do not have GPUs available for the 70 to 90 students we expect in this course. For simple networks, you don't really need a GPU. This means you can do quick explorations on subsets of the data locally. This requires:&nbsp;</p>
+<ul>
+<li>Installing Python (ideally using Anaconda)</li>
+<li>Installing Tensorflow 2 (follow instructions on the Tensorflow website)</li>
+</ul>
+<p>Obviously, if you own a computer with a built-in GPU (e.g., a gaming laptop), you can work locally without problems.</p>
+</div>
+</body>
+</html>
