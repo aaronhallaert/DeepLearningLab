@@ -11,3 +11,7 @@ The dataset was modified, due to an error while unzipping (umlaut in Albrecht DÃ
 * [Train split](https://drive.google.com/file/d/1zX-AKwATOR2kL_RI2-81jRsm2cepUKRB/view?usp=sharing)
 * [Validate split](https://drive.google.com/file/d/1qg47TIug-aNKgJrg3MERs4Bk_urS24gT/view?usp=sharing)
 * [Test split](https://drive.google.com/file/d/1JZWRxz_oCf_BzTdV0r7ekOWeB4yLCm5g/view?usp=sharing)
+
+## Link to Saved Models
+
+* [Saved Models Aaron](https://drive.google.com/drive/folders/1yyJRmINsz2kOUkCqp_O32btgyPvTkKgd?usp=sharing)
